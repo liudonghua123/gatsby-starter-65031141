@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '8'
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/liudonghua123/gatsby-starter-65031141.git
+  - secure: iGqHU62CXyQ8ZctdKdv0RtfAMAVS+P7R48t97q4yO2Zt7IhdKIubZG2Eipy0Fhkga2IV2HIFW6oQDV2Q8I8fUc4jx5rw2BfeylHnnv3dPxNJ1ZUjdxB9Qa/oEVCxv2S2tR/CpZbdyBNtjk5MQQtGCeWMkKTItKMHx8JcnPpXeK/d4xmxZn4/9goAl/IoWK7KK2QQaKCGE7p1q0vx7bNZvH9zfNLswhk5ZY+PGxxQaeTejBbdhwJoKe7cPwt/BhmqwdZ0lGxtDqOwz6Oavw4ROAIxyJLFCbzeGAioKOL/M9AWtBePtnw0F4ZSwXY6SIscG9yLqOY/aM9tP+MTVWQRi+9ag4K0AsFEWW2caQrzrCQZvse2a06J0bkaedBmyKDVaGR/6qY79yE2gnc6T19/4ICqm3SsVC4RkcP8tW+N+E90LzjE/rYabKFWU58+MHysgwdBGCZhVmqXltrTnN+35wo7vRsy63dg0DPxoBs4JdUtBWx00vv2YrFbTldBHdO3movjOMtKQwNtSetK/bLX9FNOQ7DXT+LFp6fontFrzBVPNhdu/9XhjCVdF2okd1y2y1A8xDbrUyF4JSg00U2xqfNN9AwNfcSMM7mDjqh78HgG8fXK1JMkYnfR6ipuLi9cH4mdmAVSaN8odQ/lG05VOA7cOZcI4ciM2BM8/3jyWQY=
