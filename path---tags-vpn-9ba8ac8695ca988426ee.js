@@ -1,0 +1,2 @@
+webpackJsonp([32220295004952],{470:function(t,n){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{fields:{slug:"yun-nan-da-xue-vpnshi-yong-zhi-dao.html"},frontmatter:{title:"云南大学VPN使用指导"}}},{node:{fields:{slug:"yun-nan-da-xue-da-yin-ji-vpnshi-yong-zhi-dao.html"},frontmatter:{title:"云南大学打印机VPN使用指导"}}}]}},pathContext:{tag:"VPN"}}}});
+//# sourceMappingURL=path---tags-vpn-9ba8ac8695ca988426ee.js.map

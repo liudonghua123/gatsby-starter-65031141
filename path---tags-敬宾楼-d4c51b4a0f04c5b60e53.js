@@ -1,0 +1,2 @@
+webpackJsonp([0x9327179ef723],{476:function(n,t){n.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"yun-nan-da-xue-xin-xi-ji-zhu-zhong-xin-de-wei-zhi-jing-bin-lou.html"},frontmatter:{title:"云南大学信息技术中心的位置（敬宾楼）"}}}]}},pathContext:{tag:"敬宾楼"}}}});
+//# sourceMappingURL=path---tags-敬宾楼-d4c51b4a0f04c5b60e53.js.map
