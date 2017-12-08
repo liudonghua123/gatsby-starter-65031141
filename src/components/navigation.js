@@ -98,6 +98,7 @@ export default ({ pathname }) => {
           }}
         >
           <NavItem linkTo="/">首页</NavItem>
+          <NavItem linkTo="/tags">标签</NavItem>
         </ul>
         <div
           css={{

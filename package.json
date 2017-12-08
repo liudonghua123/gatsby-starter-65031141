@@ -25,6 +25,7 @@
     "react-icons": "^2.2.7",
     "slash": "^1.0.0",
     "slugify": "^1.2.6",
+    "styled-components": "^2.2.4",
     "transliteration": "^1.6.2",
     "typeface-space-mono": "0.0.44",
     "typeface-spectral": "0.0.44",

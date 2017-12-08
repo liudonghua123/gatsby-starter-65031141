@@ -8,6 +8,7 @@ import Img from "gatsby-image"
 import presets from "../utils/presets"
 import typography, { rhythm, scale, options } from "../utils/typography"
 import Container from "../components/container"
+import { CategoryAndTags } from '../components/footer';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -68,58 +69,62 @@ class BlogPostTemplate extends React.Component {
             }}
           />
         </Container>
-          <Container>
+        <Container>
+          <CategoryAndTags article={{ category: this.props.data.markdownRemark.frontmatter.category, 
+            tags: this.props.data.markdownRemark.frontmatter.tags }} />
+        </Container>
+        <Container>
+          <div
+            css={{ [presets.Phablet]: { display: `flex`, width: `100%` } }}
+          >
             <div
-              css={{ [presets.Phablet]: { display: `flex`, width: `100%` } }}
+              css={{
+                [presets.Phablet]: {
+                  width: `50%`,
+                },
+              }}
             >
-              <div
-                css={{
-                  [presets.Phablet]: {
-                    width: `50%`,
-                  },
-                }}
-              >
-                {prev && (
-                  <Link to={prev.fields.slug} css={prevNextLinkStyles}>
-                    <h4 css={prevNextLabelStyles}>Previous</h4>
-                    <span
-                      css={{
-                        [presets.Tablet]: {
-                          marginLeft: `-1rem`,
-                        },
-                      }}
-                    >
-                      <ArrowBackIcon style={{ verticalAlign: `sub` }} />
-                      {prev.frontmatter.title}
-                    </span>
-                  </Link>
-                )}
-              </div>
-              <div
-                css={{
-                  textAlign: `right`,
-                  marginTop: rhythm(1),
-                  [presets.Phablet]: { marginTop: 0, width: `50%` },
-                }}
-              >
-                {next && (
-                  <Link to={next.fields.slug} css={prevNextLinkStyles}>
-                    <h4 css={prevNextLabelStyles}>Next</h4>
-                    <span
-                      css={{
-                        [presets.Tablet]: {
-                          marginRight: `-1rem`,
-                        },
-                      }}
-                    >
-                      {next.frontmatter.title}
-                      <ArrowForwardIcon style={{ verticalAlign: `sub` }} />
-                    </span>
-                  </Link>
-                )}
-              </div>
+              {prev && (
+                <Link to={prev.fields.slug} css={prevNextLinkStyles}>
+                  <h4 css={prevNextLabelStyles}>Previous</h4>
+                  <span
+                    css={{
+                      [presets.Tablet]: {
+                        marginLeft: `-1rem`,
+                      },
+                    }}
+                  >
+                    <ArrowBackIcon style={{ verticalAlign: `sub` }} />
+                    {prev.frontmatter.title}
+                  </span>
+                </Link>
+              )}
             </div>
-          </Container>
+            <div
+              css={{
+                textAlign: `right`,
+                marginTop: rhythm(1),
+                [presets.Phablet]: { marginTop: 0, width: `50%` },
+              }}
+            >
+              {next && (
+                <Link to={next.fields.slug} css={prevNextLinkStyles}>
+                  <h4 css={prevNextLabelStyles}>Next</h4>
+                  <span
+                    css={{
+                      [presets.Tablet]: {
+                        marginRight: `-1rem`,
+                      },
+                    }}
+                  >
+                    {next.frontmatter.title}
+                    <ArrowForwardIcon style={{ verticalAlign: `sub` }} />
+                  </span>
+                </Link>
+              )}
+            </div>
+          </div>
+        </Container>
       </div>
     )
   }
@@ -137,6 +142,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM Do YYYY")
+        tags
       }
     }
   }
