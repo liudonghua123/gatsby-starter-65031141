@@ -25,6 +25,7 @@ const navItemStyles = {
   "&:hover": {
     opacity: 0.8,
   },
+  fontSize: `1.5em`,
 }
 const NavItem = ({ linkTo, children }) => (
   <li
@@ -91,7 +92,7 @@ export default ({ pathname }) => {
             display: `none`,
             [presets.Tablet]: {
               display: `block`,
-              margin: 0,
+              margin: `0 auto`,
               padding: 0,
               listStyle: `none`,
             },
