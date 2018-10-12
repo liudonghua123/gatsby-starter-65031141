@@ -32,7 +32,7 @@ VPN的使用方法，请点击[VPN使用指导书][VPN使用指导书]
 4. [云南大学vpn服务个人申请表][云南大学vpn服务个人申请表]
 
 [VPN使用指导书]: http://www.itc.ynu.edu.cn/info/1056/1069.htm
-[SVN客户端.zip]: http://www.itc.ynu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1355056356&wbfileid=2127212
+[SVN客户端.zip]: http://www.itc.ynu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1414762128&wbfileid=2642843
 [外聘_返聘人员校园网服务申报表]: http://www.itc.ynu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1355056356&wbfileid=1730364
 [云南大学教职工vpn服务申报表(批量)]: http://www.itc.ynu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1355056356&wbfileid=1730363
 [云南大学vpn服务个人申请表]: http://www.itc.ynu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1355056356&wbfileid=1730362
